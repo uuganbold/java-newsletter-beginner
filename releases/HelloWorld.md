@@ -107,4 +107,17 @@ Just few days ago, JDK 14 released. You can know about what is added or removed 
 
 The most relevant for us so far is that [NullPointerException](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/NullPointerException.html) gives us more detailed and helpful message and it would make debugging lot easier. [Read More](https://openjdk.java.net/jeps/358)
 
+Before this release NullPointerException's message was something like
+```
+Exception in thread "main" java.lang.NullPointerException
+    at Prog.main(Prog.java:5)
+```
+
+In JDK 14, this message will look like
+```
+Exception in thread "main" java.lang.NullPointerException: 
+        Cannot assign field "i" because "a" is null
+    at Prog.main(Prog.java:5)
+```
+
 Another interesting api is added as preview feature is new class named [Record](https://openjdk.java.net/jeps/359)
