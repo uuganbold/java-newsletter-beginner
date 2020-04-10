@@ -1,14 +1,14 @@
 ## Hello World
 
-Today I will introduce Java Array data structure and some useful tricks to work with array as first release of this newsletter.
+Today I will introduce Java Array data structure and some useful tricks to work with array as the first release of this newsletter.
 
 ### Array
-Array is one of most fundamental data structure in computer science. You can assume an _array_ as sequence of elements in the memory. 
+Array is one of the most fundamental data structure in computer science. You can assume an _array_ as sequence of elements in the memory. 
 
 Arrays have fixed size because the elements are located sequentially in the memory and java needs to know how much space it should allocate to the arrays. If they had dynamic size, some conflict would have happened in the memory when new space was allocated.
 
 #### Creating array
-You can create new array in three ways in Java
+You can create a new array in three ways in Java
 ```java
 //This will give you array of String with size 3.
 String[] countries={"USA","Mongolia","Cuba"};
@@ -103,9 +103,9 @@ To learn the other functions and their use, visit [Official JavaDoc](https://doc
 
 ## What is happening in Java World
 
-Just few days ago, JDK 14 released. You can know about what is added or removed in Java from [release note](https://jdk.java.net/14/release-notes)
+Just a few days ago, JDK 14 released. You can know about what is added or removed in Java from [release note](https://jdk.java.net/14/release-notes)
 
-The most relevant for us so far is that [NullPointerException](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/NullPointerException.html) gives us more detailed and helpful message and it would make debugging lot easier. [Read More](https://openjdk.java.net/jeps/358)
+The most relevant for us so far is that [NullPointerException](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/NullPointerException.html) gives us the more detailed and helpful message and it would make debugging lot easier. [Read More](https://openjdk.java.net/jeps/358)
 
 Before this release NullPointerException's message was something like
 ```
