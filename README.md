@@ -4,6 +4,7 @@ This Java Newsletter is published for COMP170 students at [Loyola University Chi
 
 ### Releases
 
+1. March 02, 2021 - [Implementing Equals](releases/ImplementingEquals.md)
 1. April 10, 2020 - [Java is Cool](releases/JavaIsCool.md)
 2. April 02, 2020 - [Hello world](releases/HelloWorld.md)
 
