@@ -33,7 +33,7 @@ public boolean equals(Cash other){
 }
 ```   
 
-3. Because the two equals methods argument does not match, java would understand it as different methods. It is called the method **overloading**. Therefore, your class looks like this:
+Because the two equals methods argument does not match, java would understand it as different methods. It is called the method **overloading**. Therefore, your class looks like this:
    
 ```java
 public class Cash {
@@ -48,8 +48,10 @@ public class Cash {
 
 }
 ```
-1. It works as expected for some cases like:
+
+It works as expected for some cases like:
 ```java
+
 
 Cash one_dollar=new Cash(1.0);
 Cash another_dollar=new Cash(1.0);
@@ -58,7 +60,8 @@ assert one_dollar.equals(another_dollar);
 
 ```
 
-5. But it does not work for some cases like:
+But it does not work for some cases like:
+
 ```java
 
 Cash one_dollar=new Cash(1.0);
