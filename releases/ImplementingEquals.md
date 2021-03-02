@@ -56,7 +56,7 @@ It works as expected for some cases like:
 Cash one_dollar=new Cash(1.0);
 Cash another_dollar=new Cash(1.0);
 
-assert one_dollar.equals(another_dollar);
+assert one_dollar.equals(another_dollar);  //true
 
 ```
 
@@ -67,7 +67,7 @@ But it does not work for some cases like:
 Cash one_dollar=new Cash(1.0);
 Object another_dollar=new Cash(1.0);
 
-assert one_dollar.equals(another_dollar);
+assert one_dollar.equals(another_dollar); //false
 
 ```
 In this case, another_dollar is declared as the "Object" and it is possible because all classes are subclasses of the "Object". Since the another_dollar is an Object, the former method would be called and could not run as expected.
